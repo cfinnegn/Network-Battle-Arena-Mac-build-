@@ -1,0 +1,78 @@
+***** 0.1.0.0 *****
+
+Starter Folder chips:
+
+Cannon x3
+HiCannon x2
+Sword x3
+Widesword x2
+Longsword x2
+Recover30 x2
+Recover50 x2
+Buster Charge Up x1
+Wrecker x2
+Fast Custom x1
+Body Burn x2
+Thunder x2
+Rain Cloud x2
+Wood Tower x2
+Barrier x2
+
+##### Build notes for general info #####
+
+ - MENU: Type name and press enter to access main menu
+	Menu options: Online play, Training mode, Chip Library, Tutorial guide
+
+ - ONLINE PLAY:
+	host/join games
+
+ - Training Mode:
+	Single player against training dummy
+	Dummy moves randomly and occasionally shoots.
+
+- KEY INPUT MODE (might not be working?)
+	- w/a/s/d movement
+	- +/= adds chips
+	- Spacebar fires/charges buster
+	- (Chips/Navi Power activation by click only in this build)
+	Checkbox below exit button toggles key overlay/input mode
+
+- Movement: there are 2 modes for movement, "swipe" and "tap". 
+	The toggle switch above the swipe pad in the bottom left switches between the two 
+	(this switch won't stay here, eventually it will become part of a "settings" menu or 
+	something like that, but this is just for temporary convenience). 
+	In "swipe" mode, you click and drag (with the mouse) within the swipe pad area 
+	to move your character (movement is input when your mouse leaves the pad or you release the mouse button), 
+	and in "tap" mode, 4 buttons appear on the pad that can be pressed for up/down/let/right movement.
+
+ - Buster: Tapping the buster button fires a shot (invisibly) for 1 damage
+	Holding down the buster button will charge your buster. 
+	The ring and stars around the buster button (as well as the charge animation) show the charge level
+	The 3 levels of charge shot do 10, 20, and 30 damage and also lightly stagger
+
+ - Draw: Clicking the draw button with at least 2 energy (while you have fewer than 6 chips) 
+	will spend 2 energy to add a chip
+
+ - Chips: Chips are pulled from the starter folder. 
+	By clicking on a chip when you have enough energy, the chip will activate and disappear, 
+	other chips will shift into place (chips always fill from the left), and your energy will drop accordingly. 
+
+- Chip Color Combo System:
+	When using consecutive chips of the same color, all chips after first will cost 1 less
+	White chips will not combo with each other, but will not break other color combos
+	Grey chips will not combo with each other, but WILL break other color combos
+	Drawing chips breaks the current combo 
+ 
+ - Navi Power
+	- Megaman's Navi Power is "Weapon Get". When playing online, you can add a White-code
+		copy of the last chip used by your opponent to your hand by pressing the Navi Power
+		Button (cost: 3 energy). Buttons image displays what chip will be added.
+
+
+
+!!!!! KNOWN ISSUES !!!!!
+
+- Sometimes a chip will not leave your hand when it is played if it is in a combo, but 
+	your custom energy will be charged correctly
+	
+- Barriers that are broken may continue to appear on Navi's body
