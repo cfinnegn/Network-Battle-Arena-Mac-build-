@@ -33,9 +33,10 @@ Barrier x2
 - KEY INPUT MODE (might not be working?)
 	- w/a/s/d movement
 	- +/= adds chips
+	- 5-0 activate corresponding chip from hand
+	- Shift activates Navi power
 	- Spacebar fires/charges buster
-	- (Chips/Navi Power activation by click only in this build)
-	Checkbox below exit button toggles key overlay/input mode
+	Checkbox below exit button toggles key overlay
 
 - Movement: there are 2 modes for movement, "swipe" and "tap". 
 	The toggle switch above the swipe pad in the bottom left switches between the two 
@@ -69,6 +70,12 @@ Barrier x2
 		Button (cost: 3 energy). Buttons image displays what chip will be added.
 
 
+~~~~ Fixes and Changes ~~~~
+*0.1.0.1
+- HP correctly displays as 750 at the start of a game (first damage is applied correctly)
+- Stun animation plays correctly when hit by a chip
+- Players no longer get stuck in an invulnerable state after suffering stun damage
+- Lare swipe zone added over left half of field (easier movement input on mobile)
 
 !!!!! KNOWN ISSUES !!!!!
 
